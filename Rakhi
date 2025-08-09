@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Rakhi Gurleen 🎀</title>
+<style>
+    body {
+        background: linear-gradient(135deg, #ffecd2, #fcb69f);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 20px;
+        color: #4e342e;
+    }
+    h1 {
+        font-size: 3em;
+        color: #d81b60;
+        animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+        from { text-shadow: 0 0 10px #ff4081; }
+        to { text-shadow: 0 0 20px #ff80ab; }
+    }
+    .rakhi-img {
+        max-width: 250px;
+        margin: 20px auto;
+        animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+    p {
+        font-size: 1.3em;
+        background: rgba(255,255,255,0.7);
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+    .heart {
+        color: red;
+        animation: heartbeat 1s infinite;
+    }
+    @keyframes heartbeat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+    }
+</style>
+</head>
+<body>
+    <h1>🎀 Happy Raksha Bandhan Gurleen 🎀</h1>
+    <img src="https://i.ibb.co/0M0g6n9/rakhi.png" alt="Rakhi" class="rakhi-img">
+    <p>Dear Gurleen, tu sirf meri sister nahi, meri best friend vi aa ❤️ Rabb kare hamesha tera chehra muskaan naal bhare rahe!</p>
+    <p class="heart">💖 From Your Brother Arsh 💖</p>
+</body>
+</html>
